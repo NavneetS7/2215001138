@@ -1,0 +1,23 @@
+@host=http://20.244.56.144
+
+POST {{host}}/evaluation-service/register
+Content-Type: application/json
+
+{
+    "email": "navneet.singh_cs22@gla.ac.in",
+    "name": "Navneet Singh",
+    "mobileNo": "6397205190",
+    "githubUsername":"NavneetS7",
+    "rollNo":"2215001138",
+    "collegeName":"GLA University",
+    "accessCode":"CNneGT"
+}
+
+# {
+#   "email": "navneet.singh_cs22@gla.ac.in",
+#   "name": "navneet singh",
+#   "rollNo": "2215001138",
+#   "accessCode": "CNneGT",
+#   "clientID": "a37fb919-2c97-492b-9a42-b0a57b8c5ebf",
+#   "clientSecret": "bySCbHrUmXdWCGsA"
+# }
